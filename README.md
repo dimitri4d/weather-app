@@ -19,6 +19,21 @@ Ensure you have `pnpm` installed. Then, run the following command to install all
 pnpm install
 ```
 
+create .env.local file in frontend 
+
+```
+NEXT_PUBLIC_API_BASE_URL=http://localhost:4000
+
+```
+
+create .env file in backend
+
+```
+PORT=4000
+WEATHER_API_KEY=538882fc8387290c6cee83f313a6acf5
+```
+
+
 
 ## Scripts
 
@@ -41,6 +56,12 @@ pnpm run dev
 
 - The frontend will be available at [http://localhost:3000](http://localhost:3000).
 - The backend will be available at [http://localhost:4000](http://localhost:4000).
+
+
+### Swagger API Documentation
+The backend Swagger API documentation is automatically generated and can be accessed at:
+
+Swagger UI: http://localhost:4000
 
 
 
